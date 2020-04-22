@@ -8,7 +8,7 @@ import schemaTypes from 'all:part:@sanity/base/schema-type'
 export default createSchema({
   
   // We name our schema
-  name: 'changethestorySchema',
+  name: 'ctsSchema',
 
   // Then proceed to concatenate our document types (just one, for now)
   // to the ones provided by any plugins that are installed
