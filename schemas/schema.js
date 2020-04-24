@@ -41,6 +41,17 @@ export default createSchema({
         ,
         {
           // The display name for this field
+          title: "Flag",
+
+          // The identifier for this field used in the api's
+          name: "flag",
+
+          // The type of this field
+          type: "image",
+        }
+        ,
+        {
+          // The display name for this field
           title: "Main Content",
 
           // The identifier for this field used in the api's
