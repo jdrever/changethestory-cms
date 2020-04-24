@@ -56,9 +56,8 @@ export default createSchema({
 
           // The identifier for this field used in the api's
           name: "mainContent",
-
-          // The type of this field
-          type: "string",
+          type: 'array', 
+          of: [{type: 'block'}]
         }
       ]
     }
