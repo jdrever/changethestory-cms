@@ -59,6 +59,16 @@ export default createSchema({
           type: 'array', 
           of: [{type: 'block'}] 
         }
+        ,
+        {
+          // The display name for this field
+          title: "About the Project",
+
+          // The identifier for this field used in the api's
+          name: "aboutTheProject",
+          type: 'array', 
+          of: [{type: 'block'}] 
+        }
       ]
     }
   ])
